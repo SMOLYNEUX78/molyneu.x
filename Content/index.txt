@@ -1,0 +1,66 @@
+:index
+
+@text0 Bitcoin has introduced Blockchain to the world and it is now here to stay. 
+In much the same way the internet was a novelty for the few at first, blockchain technology is a burgeoning second layer of the internet that is financialised.
+
+Just as Napster disrupted the music industry irreversibly, blockchain technologies are now taking on the world’s financial instutions and are growing at an extraoridinary rate.
+Blockchain Consult provides guidance to the aspiring investor interested in entering the cyrptocurrency market.
+
+A noise free route to the cyrptocurrency markets
+
+There are many pitfalls when approaching the cryptocurrency market. Which exchanges to trust? Which projects to avoid? Which wallets are most secure?
+You will benefit from the accumulated knowledge of a personal advisor who has researched, invested, held and traded cryptocurrencies since 2013. 
+Instead of standing by the sidelines spending hours reading conflicting views, misinformation and missing your rightful entry point, your route to market will be quick, easy and secure.
+@text1 A simple, secure route to the cryptocurrency market 
+
+@text2 t2-Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!
+@text3 t3-Our templates are updated regularly so they don't break.
+@text4 t4-You can use this theme as is, or you can make changes!
+@text5 t5-You have to make your websites with love these days!
+@text6 BLOCKCHAIN CONSULT
+@text7 t7-We update dependencies to keep things fresh.
+@text8 t8-Free Download at Start Bootstrap!
+@text9 t9-feedback@startbootstrap.com
+@text10 Rise of the Blockchain
+@text11 t11-Toggle navigation Menu
+@text12 t12-Let's Get In Touch!
+@text13 Entry
+@text14 
+@text15 Service
+@text16 t16-Made with Love
+@text17 t17-Download Now!
+@text18 Learn more
+@text19 Security
+
+@text20 t20-Project Name
+@text30 t30-Category
+@text40 t40-Project Name
+@text50 t50-Category
+@text60 t60-Project Name
+@text70 t70-Category
+@text80 t80-Project Name
+@text90 t90-Category
+@text100 t100-Project Name
+@text110 t110-Category
+@text120 t120-Project Name
+@text130 t130-Category
+
+@text21 t21-Project Name
+@text22 t22-Project Name
+@text23 t23-Project Name
+@text24 t24-123-456-6789
+@text25 t25-Project Name
+@text26 t26-Project Name
+@text27 Our Service
+@text28 Guidance
+@text29 People
+
+@text31 Services
+@text32 t32-Category
+@text33 t33-Category
+@text34 t34-Category
+@text35 t35-Category
+@text36 Category
+@text37 Contact
+@text38 About
+@text39 t39-
