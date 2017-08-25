@@ -119,12 +119,20 @@ Blockchain Consult provides guidance to the aspiring investor interested in ente
 
         </p>
 
+See All Widgets
+Advanced Real-Time Chart Widget
+
+Advanced Chart Widget is a free and powerful charting solution that easily embeds into any website. Simply adjust the settings and click Apply to see a preview, then copy the embed code and paste it into your site code. You can personalize the chart by modifying the default symbol, watchlist, adding tools for technical analysis and a lot more. You can even add news, hotlists, or an economic calendar to make the widget into an entire analytics platform.
+
+
+Embed code
+
+
 <!-- TradingView Widget BEGIN -->
 <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
 <script type="text/javascript">
 new TradingView.widget({
-  "width": 40px,
-  "height": 40px,
+  "autosize": true,
   "symbol": "COINBASE:BTCGBP",
   "interval": "D",
   "timezone": "Etc/UTC",
@@ -134,10 +142,134 @@ new TradingView.widget({
   "toolbar_bg": "#f1f3f6",
   "enable_publishing": false,
   "allow_symbol_change": true,
+  "watchlist": [
+    "BITTREX:ETHBTC",
+    "BITTREX:NEOBTC",
+    "BITTREX:ADXBTC"
+  ],
+  "details": true,
+  "calendar": true,
+  "news": [
+    "headlines"
+  ],
   "hideideas": true
 });
 </script>
 <!-- TradingView Widget END -->
+
+Size and Defaults
+
+Default symbol  Default Interval  Timezone
+
+COINBASE:BTCGBP
+ 
+1d
+ 
+UTC
+Width  Height  
+
+980
+  
+610
+  
+ Autosize ?
+Color Theme  Bar's Style  Language
+Light
+ 
+Candles
+ 
+English
+Top toolbar background color
+ 
+ Show top toolbar   
+ Show Watchlist
+
+Add symbol to watchlist
+ 
+BITTREX:ETHBTC
+BITTREX:NEOBTC
+BITTREX:ADXBTC
+ 
+ Show bottom toolbar   
+ Show Details
+ 
+ Allow symbol change   
+ Show StockTwits
+ 
+ «Get image» button   
+ Show Headlines
+ 
+ Show drawing tools bar   
+ Show Hotlist
+ 
+ Show Ideas on chart   
+ Show Calendar
+ 
+ Show Ideas button   
+ Show Indicators
+ 
+ Launch in popup button  
+1000
+   ×    
+650
+ 
+ Enable publishing
+
+Activate referral program
+Reset Apply
+Live Examples
+
+Some examples of how our charts are used on financial websites:
+
+CME Group
+Seeking Alpha
+Investing.com
+RBC
+BM&F Bovespa
+DailyFX
+Zacks
+sMart-lab
+FXCM
+FXStreet
+Investopedia
+TradersLog
+Demos
+TECHNICAL ANALYSIS BASIC AREA CHART SOCIAL WATCHLIST ANALYTICS PLATFORM
+
+If you want to please advanced chartists, give them all available drawings - there are over 100 of them! You can also add indicators that will appear by default on the widget. Of course, you can also let your chartists use the 80+ indicators that are included. Possibilities are limitless - you can add things like a second price scale on the left, and change it between a Percentage and Log scales. You can also compare several symbols by overlaying them, or onto different subscharts one over another.
+
+Embed code
+
+
+<!-- TradingView Widget BEGIN -->
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+<script type="text/javascript">
+new TradingView.widget({
+	"container_id": 'technical-analysis',
+	"width": 998,
+	"height": 610,
+	"symbol": "AAPL",
+	"interval": "D",
+	"timezone": "exchange",
+	"theme": "Light",
+	"style": "1",
+	"toolbar_bg": "#f1f3f6",
+	"withdateranges": true,
+	"hide_side_toolbar": false,
+	"allow_symbol_change": true,
+	"save_image": false,
+	"hideideas": true,
+	"studies": [ "ROC@tv-basicstudies",
+	"StochasticRSI@tv-basicstudies",
+	"MASimple@tv-basicstudies" ],
+	"show_popup_button": true,
+	"popup_width": "1000",
+	"popup_height": "650"
+});
+</script>
+<!-- TradingView Widget END -->
+				
+
 
 
 <div>
