@@ -259,6 +259,42 @@
           <p class="section-description">Keep up to date with the latest Bitcoin and Ethereum prices and market news</p>
         </div>
         
+        
+        <html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-git1.min.js"></script>
+     <script>
+      $(document).on('change','.fx',function(){
+       //var widget = changeFX(this.value);
+        document.getElementById('content').src = "chart.html?value="+this.value;
+        document.getElementById('content').style.display = "block";
+       });
+</script>
+<style>
+  iframe{
+    height:100%;
+    width:100%;
+    display:none;
+  }
+</style> 
+  </head>
+  <body>
+   <select name="fx" class="fx">
+              <option value="EURUSD">EURUSD</option>
+              <option value="EURJPY">EURJPY</option>
+</select>
+<iframe src="chart.html" id="content" >
+
+</iframe>
+  </body>
+</html>
+        
+        
+        
+        
+        
+        
 <div style="height: 500px">
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
