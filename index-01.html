@@ -276,20 +276,25 @@
         <div class="row">
             
 
-        </div>
-          
-          <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://s3.tradingview.com/tv.js" rel="noopener" target="_blank"><span class="blue-text">Cryptocurrency Markets</span></a> by TradingView</div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
-  {
-  "width": "100%",
-  "height": "100%",
-  "defaultColumn": "overview",
-  "screener_type": "crypto_mkt",
-  "displayCurrency": "GBP",
-  "locale": "uk" "toolbar_bg": "#f1f3f6",
+   <html lang="en">
+<head>
+  <!-- basic.html -->
+  <title>Charts</title>
+  <meta charset = "UTF-8" />
+</head>
+<body>
+<Br><br>
+<!-- TradingView Widget BEGIN -->
+<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+<script type="text/javascript">
+new TradingView.widget({
+  "symbol": "COINFLOOR:BTCGBP",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "en",
+  "toolbar_bg": "#f1f3f6",
   "enable_publishing": false,
   "allow_symbol_change": true,
   "watchlist": [
@@ -303,12 +308,13 @@
   ],
   "hideideas": true
 });
-  </script>
-</div>
+</script>
 <!-- TradingView Widget END -->
-          
 
-      </div>
+    
+  </body>
+</html>
+     
     </section><!-- #charts -->
 
     <!--==========================
