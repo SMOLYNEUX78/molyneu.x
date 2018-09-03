@@ -272,42 +272,40 @@
           <h3 class="section-title">Charts & News</h3>
           <p class="section-description">Keep up to date with the latest Bitcoin and Ethereum prices and market news</p>
         </div>
-         
-<html>
-  <body>
 <!-- TradingView Widget BEGIN -->
-<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-<script type="text/javascript">
-new TradingView.widget({
+<div class="tradingview-widget-container">
+  <div id="tradingview_7a20d"></div>
+  <div class="tradingview-widget-copyright"><a href="https://uk.tradingview.com/symbols/COINFLOOR-BTCGBP/" rel="noopener" target="_blank"><span class="blue-text">BTCGBP chart</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "autosize": true,
   "symbol": "COINFLOOR:BTCGBP",
   "interval": "D",
   "timezone": "Etc/UTC",
   "theme": "Light",
   "style": "1",
-  "locale": "en",
+  "locale": "uk",
   "toolbar_bg": "#f1f3f6",
   "enable_publishing": false,
   "allow_symbol_change": true,
   "watchlist": [
-    "COINFLOOR:BTCGBP",
-    "BITSTAMP:BTCUSD",
-    "BITTREX:ETHBTC", 
+    "BINANCE:BTCUSDT",
+    "BITFINEX:BTCUSDLONGS",
+    "BITFINEX:BTCUSDSHORTS",
+    "BINANCE:ETHUSDT"
   ],
-  "details": true,
+  "hotlist": true,
   "news": [
     "headlines"
   ],
-  "hideideas": true
-});
- 
-</script>
-<!-- TradingView Widget END -->
-
-    
-  </body>
-</html>
-    
-</div>       
+  "container_id": "tradingview_7a20d"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END -->    
  
 
     </section><!-- #charts -->
