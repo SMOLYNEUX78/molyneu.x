@@ -799,7 +799,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* iFrame Section
 --------------------------------*/
 #iframe-menu {
-  background: #fff;
+  background: #EAEAEA;
   background-size: cover;
   padding: 10px 0;
 }
