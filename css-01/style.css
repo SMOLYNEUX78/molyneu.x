@@ -661,7 +661,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/background.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -794,6 +794,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .portfolio-item:hover img {
   top: -30px;
 }
+
+
+/* Call To Action Section
+--------------------------------*/
+#iframe-menu {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/background-01.jpg) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+#call-to-action .cta-btn:hover {
+  background: #2dc997;
+  border: 2px solid #2dc997;
+}
+
+
 
 /* Team Section
 --------------------------------*/
