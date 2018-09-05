@@ -808,7 +808,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio-01 #portfolio-flters {
   padding: 0;
-  margin: 0 0 45px 0;
+  margin: 0 0 0px 0;
   list-style: none;
   text-align: center;
 }
@@ -837,14 +837,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   height: 200px;
   overflow: hidden !important;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   transition: all 350ms ease;
   transform: scale(1);
 }
 
 #portfolio-01 .portfolio-item a {
   display: block;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
 #portfolio-01 .portfolio-item img {
@@ -856,7 +856,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio-01 .portfolio-item .details {
   height: 50px;
   background: #2dc997;
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 50px;
   bottom: -50px;
