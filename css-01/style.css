@@ -799,7 +799,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* iFrame Section
 --------------------------------*/
 #iframe-menu {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: #fff;
   background-size: cover;
   padding: 10px 0;
 }
