@@ -805,13 +805,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #iframe-menu .cta-title {
-  color: #fff;
+  color: #DCB2A9;
   font-size: 28px;
   font-weight: 700;
 }
 
 #iframe-menu .cta-text {
-  color: #fff;
+  color: #DCB2A9;
 }
 
 @media (min-width: 769px) {
