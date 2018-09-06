@@ -795,20 +795,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   top: -30px;
 }
 
-#portfolio .demo-iframe-holder {
-  position: fixed; 
-  right: 0; 
-  bottom: 0; 
-  left: 0;
-  top: 0;
-  -webkit-overflow-scrolling: touch;
-  overflow-y: scroll;
-}
 
-.demo-iframe-holder iframe {
-  height: 100%;
-  width: 100%;
-}
 
 /* Portfolio Section 2
 --------------------------------*/
