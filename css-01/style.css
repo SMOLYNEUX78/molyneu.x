@@ -795,6 +795,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   top: -30px;
 }
 
+#portfolio .scroll-wrapper {
+	-webkit-overflow-scrolling: touch;
+  	overflow-y: scroll;
+     position: center;
+    height: 500px;
+     width: 100%;
+
+	/* important:  dimensions or positioning here! */
+}
+
+.scroll-wrapper iframe {
+	/* nada! */
+}
 
 
 /* Portfolio Section 2
