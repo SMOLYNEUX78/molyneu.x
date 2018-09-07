@@ -214,7 +214,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #2dc997;
 }
 /*--------------------------------------------------------------
-# Hero Section
+# Hero1 Section
 --------------------------------------------------------------*/
 #hero1 {
   width: 100%;
@@ -230,7 +230,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#hero:before {
+#hero1:before {
   content: "";
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
@@ -240,7 +240,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
 }
 
-#hero .hero-container {
+#hero1 .hero-container {
   position: absolute;
   bottom: 0;
   top: 0;
@@ -253,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-#hero h1 {
+#hero1 h1 {
   margin: 30px 0 10px 0;
   font-size: 48px;
   font-weight: 700;
@@ -269,7 +269,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#hero h2 {
+#hero1 h2 {
   color: #eee;
   margin-bottom: 50px;
   font-size: 24px;
@@ -283,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#hero .btn-get-started {
+#hero1 .btn-get-started {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -298,7 +298,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#hero .btn-get-started:hover {
+#hero1 .btn-get-started:hover {
   background: #2dc997;
   border: 2px solid #2dc997;
 }
