@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: blockchainconsult.co.uk
+Token: 46aefc5f8f989acb7c3a4d1016f02634a308065dd4262e9b8e9442661d821113
