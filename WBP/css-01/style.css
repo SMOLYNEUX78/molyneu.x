@@ -11,19 +11,19 @@ body {
 }
 
 .leftpane {
-    width: 25%;
-    height: 100%;
+    width: 50%;
+    height: 25%;
     float: left;
-    background-color: rosybrown;
+    background-color: ;
     border-collapse: collapse;
 }
 
 .rightpane {
-  width: 25%;
-  height: 100%;
+  width: 50%;
+  height: 25%;
   position: relative;
   float: right;
-  background-color: yellow;
+  background-color: ;
   border-collapse: collapse;
 }
 
