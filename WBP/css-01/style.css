@@ -27,14 +27,7 @@ body {
   border-collapse: collapse;
 }
 
-.bottompane {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  float: bottom;
-  background-color: yellow;
-  border-collapse: collapse;
-}
+
   background: #fff;
   color: #666666;
   font-family: "Open Sans", sans-serif;
