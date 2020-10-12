@@ -18,14 +18,6 @@ body {
     border-collapse: collapse;
 }
 
-.middlepane {
-    width: 50%;
-    height: 100%;
-    float: left;
-    background-color: royalblue;
-    border-collapse: collapse;
-}
-
 .rightpane {
   width: 25%;
   height: 100%;
@@ -35,11 +27,13 @@ body {
   border-collapse: collapse;
 }
 
-.toppane {
+.bottompane {
   width: 100%;
-  height: 100px;
+  height: 100%;
+  position: relative;
+  float: bottom;
+  background-color: yellow;
   border-collapse: collapse;
-  background-color: #4da6ff;
 }
   background: #fff;
   color: #666666;
