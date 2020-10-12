@@ -2,7 +2,7 @@ jQuery(document).ready(function( $ ) {
 // splash fade in fade out redirect
  $(function(){
  $('body').delay(3000).fadeOut(3000, function() { 
-       window.location.href = "../Website/landing.html"
+       window.location.href = "../landing.html"
     })
  });
 
