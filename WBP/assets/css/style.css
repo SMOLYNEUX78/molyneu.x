@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 300;
   display: flex;
-  padding:50px;
+  padding:5vw;
   justify-content: ;
   align-items: top-left;
   flex-direction: column;
@@ -194,9 +194,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero1 h1 {
   margin: 30px 0 30px 0;
-  font-size: 20px;
+  font-size: 20vw;
   font-weight: 100;
-  line-height: 50px;
+  line-height: 5vh;
   text-transform: ;
   color: #2822a9;
   text-align: left;
@@ -213,7 +213,8 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   display: flex;
-  padding:350px;
+  padding:30vw;
+  padding:35%;
   justify-content: ;
   align-items: center;
   flex-direction: column;
@@ -224,79 +225,36 @@ h1, h2, h3, h4, h5, h6 {
   margin: 30px 0 30px 0;
   font-size: 20px;
   font-weight: 100;
-  line-height: 50px;
+  line-height: 5vh;
   text-transform: ;
   color: #2822a9;
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
 
 
-#hero2 .box {
-  padding: 50px 20px;
-  margin-bottom: 50px;
-  text-align: center;
-  border: 1px solid #2822a9;
-  height: 100px;
-  width:100%;
-  position: relative;
-  background: #fafafa;
-}
-
-#hero2 .icon {
-  position: absolute;
-  top: -36px;
-  left: calc(50% - 36px);
-  transition: 0.2s;
-  border-radius: 50%;
-  border: 6px solid #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  width: 72px;
-  height: 72px;
-  background: #2822a9;
-}
-
-#hero2 .icon a {
-  display: inline-block;
-}
-
-#hero2 .icon i {
-  color: #fff;
-  font-size: 24px;
-}
-
-#hero2 .box:hover .icon {
-  background: #fff;
-  border: 2px solid #2822a9;
-}
-
-#hero2 .box:hover .icon i {
-  color: #2822a9;
-}
-
-#hero2 .box:hover .icon a {
-  color: #2822a9;
-}
-
-#hero2 .title {
-  font-weight: 700;
-  font-size: 18px;
-  margin-bottom: 15px;
+#hero2 .btn-get-started {
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
 }
 
-#hero2 .title a {
-  color: #111;
+#hero2 .btn-get-started:hover {
+  background: #2dc997;
+  border: 2px solid #2dc997;
 }
-
-#hero2 .description {
-  font-size: 14px;
-  line-height: 24px;
-}
-
-
-
